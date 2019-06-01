@@ -14,10 +14,12 @@
         }
 
         .one {
-            color: rgb(0, 0, 0);
-            font-size: 250%;
-        }
-
+            text-align: center;
+        background-color:rgb(128, 128, 128);
+        color:rgb(255, 248, 225);
+        width: 400px;
+        border-radius:22px;
+      }
         .menu {
             margin-bottom: 40px;
             margin-left: 25px;
@@ -33,10 +35,11 @@
             background-color: rgb(39, 39, 39);
             color: rgb(245, 239, 218);
         }
-        .highlight{
-        background-color:rgb(179, 179, 179);
-        color: rgb(0, 0, 0);
-      }
+
+        .highlight {
+            background-color: rgb(179, 179, 179);
+            color: rgb(0, 0, 0);
+        }
     </style>
 </head>
 
@@ -44,7 +47,9 @@
     <center>
         <div>
             <img style="vertical-align:middle" src="img/b.png" height="420" width="500 ">
+            <h1 class = "one">ADIDAS BAGS</h1>
         </div>
+        
     </center>
     <div class="menu ">
         <h2>Menu</h2>
@@ -60,23 +65,26 @@
     <center>
         <table border="1 ">
             <tr>
-                <th class = "highlight" colspan="3 ">
+                <th class="highlight" colspan="4">
                     <h4>รายการสินค้าในตะกร้าของคุณ</h4>
                 </th>
             </tr>
             <tr>
                 <th>ลำดับ</th>
-                <th>ชื่อ</th>
+                <th>สินค้า</th>
+                <th>ชื่อสินค้า</th>
                 <th>ราคา (บาท)</th>
             </tr>
             <tr>
+                <th>1</th>
                 <th>
-                    <img src="img/1.jpg " alt="my picture " height="300">
+                    <img src="img/1.jpg " alt="my picture " height="300" LINEAR CORE GYM BAG>
                 </th>
                 <th>LINEAR CORE GYM BAG</th>
                 <th>400</th>
             </tr>
             <tr>
+                <th>2</th>
                 <th>
                     <img src="img/2.jpg " alt="my picture " height="300">
                 </th>
@@ -84,6 +92,7 @@
                 <th>1,400</th>
             </tr>
             <tr>
+                <th>3</th>
                 <th>
                     <img src="img/3.jpg " alt="my picture " height="300">
                 </th>
@@ -91,26 +100,34 @@
                 <th>1,100</th>
             </tr>
             <tr>
-                    <th>
-                        <img src="img/4.jpg " alt="my picture " height="300">
-                    </th>
-                    <th> POWER 4 LOADSPRING</th>
-                    <th>1,700</th>
-                </tr>
-                <tr>
-                        <th>
-                            <img src="img/5.jpg " alt="my picture " height="300">
-                        </th>
-                        <th> PARKHOOD 3-STRIPES</th>
-                        <th>1,300</th>
-                    </tr>
-                    <tr>
-                            <th class = "highlight" colspan="2">
-                                <h4>รวมทั้งหมด</h4>
-                                <th>5,900</th>
-                            </th>
-                        </tr>
+                <th>4</th>
+                <th>
+                    <img src="img/4.jpg " alt="my picture " height="300">
+                </th>
+                <th> POWER 4 LOADSPRING</th>
+                <th>1,700</th>
+            </tr>
+            <tr>
+                <th>5</th>
+                <th>
+                    <img src="img/5.jpg " alt="my picture " height="300">
+                </th>
+                <th> PARKHOOD 3-STRIPES</th>
+                <th>1,300</th>
+            </tr>
+            <tr>
+                <th class="highlight" colspan="3">
+                    <h4>รวมทั้งหมด</h4>
+                    <th class="highlight">5,900</th>
+                </th>
+            </tr>
         </table>
+        <hr>
+        <footer>
+            <center>
+                <a href="../index.html">Back to Index</a>
+            </center>
+        </footer>
 </body>
 
 </html>
